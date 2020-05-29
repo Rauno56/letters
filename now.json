@@ -1,0 +1,7 @@
+{
+	"cleanUrls": true,
+	"env": {
+		"LETTERS_DATA": "@letters-data",
+		"FOR_REAL": "1"
+	}
+}

@@ -1,0 +1,6 @@
+node_modules
+kirjad.*
+data.raw
+.env
+.now
+.cache
