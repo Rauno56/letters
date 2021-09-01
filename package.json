@@ -9,11 +9,11 @@
     "express": "^5.0.0-alpha.8",
     "helmet": "^3.23.3",
     "lodash": "^4.17.21",
-    "now": "^17.1.1",
     "parcel-bundler": "^1.12.5",
     "pino": "^5.17.0",
     "pino-http": "^4.5.0",
-    "string.prototype.matchall": "^4.0.5"
+    "string.prototype.matchall": "^4.0.5",
+    "vercel": "^23.1.2"
   },
   "engines": {
     "node": "12.x"

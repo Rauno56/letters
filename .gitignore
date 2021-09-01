@@ -3,4 +3,5 @@ kirjad.*
 data.raw
 .env
 .now
+.vercel
 .cache
