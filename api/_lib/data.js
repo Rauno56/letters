@@ -1,7 +1,6 @@
 const assert = require('assert');
 const fs = require('fs');
 const lodash = require('lodash');
-require('string.prototype.matchall').shim();
 
 const { log } = require('./log.js');
 

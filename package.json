@@ -4,18 +4,15 @@
   "description": "",
   "main": "convert.raw.js",
   "dependencies": {
-    "colors": "^1.4.0",
-    "diff": "^4.0.2",
-    "express": "^5.0.0-alpha.8",
-    "helmet": "^3.23.3",
+    "express": "^5.0.1",
+    "helmet": "^8.0.0",
     "lodash": "^4.17.21",
-    "pino": "^5.17.0",
-    "pino-http": "^4.5.0",
-    "string.prototype.matchall": "^4.0.5",
-    "vercel": "^23.1.2"
+    "pino": "^9.5.0",
+    "pino-http": "^10.3.0",
+    "vercel": "^39.1.1"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "devDependencies": {},
   "scripts": {
