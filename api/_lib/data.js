@@ -36,7 +36,7 @@ const getHashStartGen = (n) => {
 const getMatchString = getHashStartGen(N);
 
 const parseEntriesFromString = (content) => {
-	return content
+	const data = content
 		.split('\n')
 		.filter((row) => row.trim() !== '')
 		.map((row) => {
@@ -52,6 +52,10 @@ const parseEntriesFromString = (content) => {
 				match: getMatchString({ hash }),
 			};
 		});
+
+	log.info({ count: data?.length, names: data?.map(({ name }) => name) }, 'loaded data');
+
+	return data;
 };
 
 const getFirstValue = (value) => {
